@@ -62,7 +62,6 @@ components:
       --channel=${vars.channel}
       --log-wptreport=../artifacts/wpt_report.json
       --log-wptscreenshot=../artifacts/wpt_screenshot.txt
-      --logcat-dir=../artifacts/
       --no-fail-on-unexpected
       --this-chunk=${chunks.id}
       --total-chunks=${chunks.total}
