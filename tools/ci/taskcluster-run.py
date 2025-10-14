@@ -80,7 +80,6 @@ def main(product, channel, commit_range, artifact_path, wpt_args):
         "--no-pause",
         "--no-restart-on-unexpected",
         "--verify-log-full",
-        "--setpref='remote.log.level=Trace'"
     ]
     # Enable headless mode for WPE MiniBrowser because it can't work under Xvfb/X11 (needs Wayland)
     wpt_args.append("--headless" if product == "wpewebkit_minibrowser" else "--no-headless")
