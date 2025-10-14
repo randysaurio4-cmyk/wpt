@@ -55,7 +55,7 @@ def do_delayed_imports(paths):
             "-no-snapshot",
             "-skin",
             "1080x1920",
-            "--no-accel"
+            "-no-accel"
         ],
         True,
     )
